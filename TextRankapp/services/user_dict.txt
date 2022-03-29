@@ -1,0 +1,6 @@
+코딩  NNP
+자바스크립트  NNP
+장고  NNP
+깃허브 NNP
+취뽀  NNP
+스파르타    NNP
