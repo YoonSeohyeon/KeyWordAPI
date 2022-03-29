@@ -15,7 +15,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from ninja import NinjaAPI
+
+from TextRankapp.apis.v1.TR_router import router as textRank_router
+
+api = NinjaAPI()
+api.add_router("/textrank/", textRank_router)
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path("admin/", admin.site.urls),
+    path("api/v1/", api.urls),
 ]

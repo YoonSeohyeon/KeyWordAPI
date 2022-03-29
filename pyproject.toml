@@ -10,6 +10,7 @@ Django = "4.0"
 django-ninja = "0.16.1"
 scikit-learn = "^1.0.2"
 konlpy = "^0.6.0"
+django-cors-headers = "^3.11.0"
 
 [tool.poetry.dev-dependencies]
 
