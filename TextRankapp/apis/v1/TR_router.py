@@ -10,5 +10,5 @@ router = Router()
 @router.post("/",response=TextRankResponse)
 def TR(request: HttpRequest, TR_request: TextRankRequest = Form(...)) -> dict:
 
-    keyword = textrank_keyword(TR_request.chat_log,komoran_tokenize, 2,2,2)
+    keyword = textrank_keyword(TR_request.chat_log,komoran_tokenize, 1,2,2)
     return {"keyword": keyword}
