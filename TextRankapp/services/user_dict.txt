@@ -4,7 +4,6 @@
 깃허브	NNP
 취뽀	NNP
 스파르타	NNP
-채팅  NNP
 폰  NNP
 파이참  NNP
 로직  NNP
@@ -57,3 +56,7 @@
 버버리  NNP
 프라이머  NNP
 쿠팡  NNP
+포켓몬  NNP
+포켓몬빵  NNP
+띠부띠부씰  NNP
+맥북  NNP
