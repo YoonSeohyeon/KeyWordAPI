@@ -38,7 +38,7 @@ def komoran_tokenize(sent):
     return words
 
 
-sent = ['아이유(IU)의 킬링보이스를 - - - < 라이브로! - 하루 끝, 너의 의미, 스물셋, 밤편지, 팔레트, 가을 아침, 삐삐, Blueming, 에잇, Coin, 라일락 ㅣ 딩고뮤직 코딩너무 즐겁다!! love 2022 아이유 IU 노래모음ㅣBest Songs of IUㅣPlaylist [MV] YOUNHA(윤하) _ 사건의 지평선(Event Horizon)']
+# sent = ['아이유(IU)의 킬링보이스를 - - - < 라이브로! - 하루 끝, 너의 의미, 스물셋, 밤편지, 팔레트, 가을 아침, 삐삐, Blueming, 에잇, Coin, 라일락 ㅣ 딩고뮤직 코딩너무 즐겁다!! love 2022 아이유 IU 노래모음ㅣBest Songs of IUㅣPlaylist [MV] YOUNHA(윤하) _ 사건의 지평선(Event Horizon)']
 
 
 def scan_vocabulary(sents, tokenize, min_count=1):
@@ -135,4 +135,4 @@ def textrank_keyword(sents, tokenize, min_count, window, min_cooccurrence, df=0.
 #                    "아 독백체 진짜 짜증나요! 싶으시면 이렇게 생각하셔도 됩니다.대부분의 시는 독백체입니다.독백체가 아닌 시들은 ‘말’처럼 안 느껴집니다.이런 시들은 어떤 느낌이 드냐면..정말 담담한 느낌이 드는 경우가 많습니다.그래서 주로 평서형 종결 어미와 명사형 종결 어미들이 쓰입니다.이런 경우가 아니라면 보통 정말 ‘말’을 하는 듯한 인상을 주고, 그러면 독백체라고 인정합니다.",
 #                    "다시 정리합니다.1.대화체와 독백체가 동시에 쓰일 수 있습니다.2.실제로 많은 시들이 독백체입니다.도움이 되셨길 바랍니다"]
 # #
-print(textrank_keyword(sent, komoran_tokenize, 1, 2,2))
+# print(textrank_keyword(sent, komoran_tokenize, 1, 2,2))
